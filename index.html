@@ -70,16 +70,34 @@
         .pricing-container{
            flex-direction: column;
            height: 100%;
-           width: 100%;
+     
            }
       }
       @media (max-width: 1250px) {
         .pricing-plan{
-          font-size: 2rem;
+          font-size: 3em;
           max-width: 80%;
           min-width: 80%;
+          min-height: 40vh;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          flex-direction: column;
           
            }
+        @media (max-width: 1250px) {
+            button{
+              min-width: 40%;
+              min-height:  5vh;
+            }
+        }
+        @media (max-width: 1250px) {
+          .plan-title{
+            font-size: 4rem;
+            padding-bottom: 2vh;
+          }
+          
+        }
       }
     </style>
   </head>
